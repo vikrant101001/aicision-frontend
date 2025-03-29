@@ -11,7 +11,7 @@ import { AppContext } from './context/AppContext'
 
 import {ToastContainer,toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Dashboard from './components/Dashboard'
+import Dashboard from './pages/Dashboard'
 
 
 const App = () => {

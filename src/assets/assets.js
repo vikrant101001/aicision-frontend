@@ -1,6 +1,7 @@
 import logo from './logo.svg'
 import logo_icon from './logo_icon.svg'
 import facebook_icon from './facebook_icon.svg'
+import linkedin from './linkedin.svg'
 import instagram_icon from './instagram_icon.svg'
 import twitter_icon from './twitter_icon.svg'
 import star_icon from './star_icon.svg'
@@ -56,7 +57,8 @@ export const assets = {
     i_java,
     i_python,
     i_js,
-    i_mongodb
+    i_mongodb,
+    linkedin
 }
 
 export const stepsData = [

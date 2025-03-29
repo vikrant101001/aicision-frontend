@@ -17,7 +17,7 @@ const About = () => {
         <div className='relative mt-5 group'>
         
           <img
-            src='./src/assets/profile_img.png'
+            src='./src/assets/me.jpg'
             alt='Vikrant Profile'
             className='w-60 h-60 sm:w-70 sm:h-70 rounded-full transition-transform transform hover:scale-105 hover:brightness-75'
           />
@@ -42,7 +42,7 @@ const About = () => {
 
             {/* Website Logo */}
             <a
-              href='https://vikrant101001.github.io/'
+              href='https://programming-vikrant.vercel.app'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -61,7 +61,7 @@ const About = () => {
         
         <p className='text-center max-w-xl mx-auto mt-5'>I am a 2 YOE Fullstack Developer with experience in both MNCs and US based Remote Startups.</p>
         
-        <a href='https://vikrant101001.github.io/'
+        <a href='https://programming-vikrant.vercel.app'
               target='_blank'
               rel='noopener noreferrer'
               className='mt-5'
@@ -99,9 +99,9 @@ const About = () => {
           
           </p>
           <div className='flex flex-wrap justify-center mt-16 gap-10'>
-            {Array(6).fill('').map((item, index)=>(
+            {Array(5).fill('').map((item, index)=>(
                 <img className='rounded hover:scale-105 transition-all duration-300 cursor-pointer max-sm:w-10' 
-                src={index % 6 === 0 ? assets.i_react : index % 6 === 1 ? assets.i_node : index % 6 === 2 ? assets.i_mongodb : index % 6 === 3 ? assets.i_js : index % 6 === 4 ? assets.i_java : assets.i_python}
+                src={index % 5 === 0 ? assets.i_react : index % 5 === 1 ? assets.i_mongodb : index % 5 === 3 ? assets.i_js : index % 5 === 4 ? assets.i_java : assets.i_python}
                 alt="" key={index} width={70}/>
             ))}
         </div>
@@ -109,51 +109,7 @@ const About = () => {
         <br/>
         <br/>
 
-        <div className='text-stone-500 inline-flex text-center gap-2 bg-white px-12 py-4 rounded-full border border-neutral-500'>
-                 <p className='text-3xl'>
-                Our Team
-                </p>
-        </div>
-
-        <div className='relative mt-5 group'>
-        <a
-              href='https://www.linkedin.com/in/amitesh-roy-codex/'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-        <img
-      
-            src='./src/assets/Amitesh.png'
-            alt='Vikrant Profile'
-            className='w-60 h-60 sm:w-70 sm:h-70 rounded-full transition-transform transform hover:scale-105 hover:brightness-75'
-          />
-          </a>
-          
-          </div>
-
-          <h1 className='text-4xl max-w-[300px] sm:text-5xl sm:max-w-[590px] mx-auto mt-10 text-center'>Amitesh Roy</h1>
         
-        <p className='text-center max-w-2xl mx-auto mt-5'>Data Engineer</p>
-
-        <div className='relative mt-5 group'>
-        <a
-              href='https://www.xnxx.com/'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-        <img
-      
-            src='./src/assets/Sayan.png'
-            alt='Vikrant Profile'
-            className='w-60 h-60 sm:w-70 sm:h-70 rounded-full transition-transform transform hover:scale-105 hover:brightness-75'
-          />
-          </a>
-          
-          </div>
-
-          <h1 className='text-4xl max-w-[300px] sm:text-5xl sm:max-w-[590px] mx-auto mt-10 text-center'>Sayan Roy</h1>
-        
-        <p className='text-center max-w-2xl mx-auto mt-5'>Sex Machine</p>
         
 
 

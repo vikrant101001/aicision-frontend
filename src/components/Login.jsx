@@ -60,7 +60,7 @@ const Login = () => {
         <form className='relative bg-white p-10 rounded-xl text-slate-500'>
             <h1 className='text-center text-2xl text-neutral-700 font-medium'>
                 {state}</h1>
-            <p>Welcome back! Please sign in to continue</p>
+            <p>Welcome back Buddy! Aicision is waiting</p>
 
             {state !== 'Login' && <div className='border px-6 py-2 flex items-ceter gap-2 rounded-full mt-5'>
                 <img src={assets.email_icon} alt="" />
@@ -87,8 +87,8 @@ const Login = () => {
             </button>
 
             { state === 'Login' ?
-                <p className='mt-5 text-center'>Dont have an account? 
-                <span className='text-blue-600 cursor-pointer' onClick={()=>setState('Sign Up')}>Sign Up</span></p>
+                <p className='mt-5 text-center'>Not part of Premium?
+                <span className='text-blue-600 cursor-pointer' onClick={()=>setState('Sign Up')}>Join Us</span></p>
             :
             <p className='mt-5 text-center'>Already have an account? 
                 <span className='text-blue-600 cursor-pointer' onClick={()=>setState('Login')}>Log in</span></p>
